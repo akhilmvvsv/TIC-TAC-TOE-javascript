@@ -1,0 +1,44 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:0px;
+}
+#container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#tictactoe{
+    font-family:"Permanent Marker",cursive;
+    text-align:center;
+}
+.cells{
+    width:75px;
+    height:75px;
+    border:2px solid black;
+    box-shadow:0 0 0 1px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    font-family:"Permanent Marker",cursive;
+    cursor:pointer;
+}
+#row{
+    display:grid;
+    grid-template-columns:repeat(3,auto);
+    margin-top:20px;
+
+}
+#textcontent{
+    margin:25px auto;
+    font-size:20px;
+}
+#restart{
+    width:100px;
+    height:30px;
+    font-size:20px;
+    font-family:"Permanent Marker",cursive;
+}
